@@ -62,7 +62,7 @@ class _MyAppState extends State<MyApp> {
 
         body: _currentIndex == 0
 
-        // ------------------ SCHERMATA LISTA ------------------
+        //lista todo
             ? Column(
           children: [
 
@@ -116,7 +116,7 @@ class _MyAppState extends State<MyApp> {
           ],
         )
 
-        // ------------------ SCHERMATA STATS ------------------
+        // stats
             : Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -170,4 +170,5 @@ class _MyAppState extends State<MyApp> {
       ),
     );
   }
+
 }
